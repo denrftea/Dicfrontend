@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  </head>
- 
-  <body>
-<h1>
-  Hello World
-</h1>
-  
-  </body>
- 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventarisir Buku</title>
+    <link rel="stylesheet" href=css/styles.css>
+</head>
+<body>
+    <h1 style="color:#0f38ee;">Daftar Buku Yang Dimiliki
+         </h1>
+    </h1>
+    <div class="Buku">
+        <input type="text" id="judulbuku" placeholder="Judul Buku">
+        <input type="text" id="penulisbuku" placeholder="Penulis Buku">
+        <button onclick="tambahbuku()">Tambah Buku</button>
+    </div>
+    <div class="wadah-buku">
+        <div class="shelf">
+            <h2 style="color:hsl(6, 88%, 50%);">Belum Dibaca</h2>
+            <div id="incompleteBookshelf"></div>
+        </div>
+        <div class="shelf">
+            <h2 style="color:hwb(95 3% 44%);">Sudah Dibaca</h2>
+            <div id="completeBookshelf"></div>
+        </div>
+    </div>
+    <script src=js/script.js></script>
+</body>
 </html>
