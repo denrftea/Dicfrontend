@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: hsl(12, 14%, 93%);
+    background-color: hwb(133 17% 38%);
 
 }
 
@@ -32,8 +32,8 @@ h1 {
 }
 
 .shelf {
-    width: 45%;
-    background: #bdeace;
+    width: 50%;
+    background: #a2c9dc;
     padding: 20px;
     box-shadow: 0 0 10px #d85e5e1a;
 }
@@ -43,7 +43,7 @@ h1 {
     justify-content: space-between;
     margin: 10px 0;
     padding: 10px;
-    background: #e2e2e2;
+    background: #826161;
 }
 
 .book-item button {
